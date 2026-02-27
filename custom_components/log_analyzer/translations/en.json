@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Log Analyzer setup",
+        "description": "Configure how and when to analyze your Home Assistant error logs using an AI conversation agent."
+      }
+    }
+  },
+  "issues": {
+    "invalid_token": {
+      "title": "Log Analyzer: Invalid or missing access token",
+      "description": "The error log could not be fetched (401 Unauthorized). Add a valid Long-Lived Access Token in Settings → Devices & Services → Log Analyzer → Configure."
+    },
+    "no_conversation_agent": {
+      "title": "Log Analyzer: No conversation agent",
+      "description": "Analysis failed. Configure a conversation agent (e.g. OpenAI, Google, Ollama) in Home Assistant. Error: {error}"
+    }
+  }
+}
